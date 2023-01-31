@@ -1,5 +1,11 @@
 # java-filmorate
-Template repository for Filmorate project.
+
+Стек: Java, Spring Boot, JDBC, H2, Maven, REST, Swagger, Git.
+
+Filmorate - Аналог Кинопоиска. Позваляет регистрировать пользователей, добавлять в друзья, добавлять фильмы, добавлять информацию о жанрах и возрастных рейтингах, ставить лайки.
+
+Планируется добавить авторизацию с помощью Spring Security, кэширование запросов с помощью Redis.
+Развитие проекта в данном репозитории: https://github.com/YurkinED/java-filmorate
 ![Схема базы данных](src/main/resources/IMG_8495.jpg)
 
 В БД содержится несколько таблиц.
