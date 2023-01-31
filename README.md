@@ -38,3 +38,5 @@ Filmorate - Аналог Кинопоиска. Позваляет регистр
    SELECT g.genre
    FROM films AS f
    INNER LEFT JOIN films_genres AS g ON g.film_id = f.film_id;
+   
+   Для тестирования функционала вы можете загрузить zip-файл приложения, открыть в удобной IDE, проверить, что файл с зависимостями успешно загрузил нужные данные, нажать build и запустить класс Application.
